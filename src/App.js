@@ -38,7 +38,10 @@ class App extends React.Component {
             <div className="App">
                 <img  width="150" src={lamaPhotoURL} />
                 {/* {innerElement} */}
-                <Greeting person={person} toGreet={true} />
+                <Greeting user={person} lang={'fr'}>Ironhack</Greeting>
+                <Greeting user={person} lang={'en'}>Ironhack</Greeting>
+                <Greeting user={person} lang={'es'}>Ironhack</Greeting>
+                <Greeting user={person} lang={'it'}>Ironhack</Greeting>
             </div>
             );
 
