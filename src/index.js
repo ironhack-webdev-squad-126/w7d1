@@ -3,8 +3,9 @@
 import React from 'react';
 // const React = require('react')
 import ReactDOM from 'react-dom';
+import App from './App';
 
 ReactDOM.render(
-    <h1>HELLO WORLD!</h1>,
+    <App />,
     document.getElementById('root')
 )
